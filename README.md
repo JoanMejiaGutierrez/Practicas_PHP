@@ -53,3 +53,20 @@ Motivos:
 
 
 Metodo GET
+El metodo GET contiene los parametros en su url a diferencia de post que los tiene ocultos
+
+
+
+
+
+
+
+
+
+
+
+
+
+Separación del html con el php
+Se pueden los archivos por separado con su resepeciva extensión
+ejemplo en la implementación del metodo GET
