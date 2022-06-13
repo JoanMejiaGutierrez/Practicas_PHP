@@ -252,3 +252,43 @@ s - segundos: 00-59
 Para representar el tiempo actual se usa la funcion time()
 Para representar una fecha especifica se usa la función mktime(<hora>, <min>,<seg>,<mes>,<dia>,<año>)
 NOTA: si no se pone el argumento de tiempo por default es el tiempo actual.
+
+
+
+
+
+
+
+
+
+Arreglos
+$miArreglo = array("item1","item2", "item3);//crea arrego
+print_r($miArreglo); //muestra indice y valor del arreglo en su formato
+echo $miArreglo[2]; // muestra un valor especifico del arreglo en base al indice
+
+
+Arreglo con indices personalizados
+$miArreglo = array("a"=>"item1","b"=>"item2","c"=>"item3","d"=>"item4");//crea arreglo con indices customs
+print_r($miArreglo);//muestra indice y valor del arreglo en su formato
+echo $verduras["b"]; // muestra un valor especifico del arreglo en base al indice personalizado
+
+
+
+
+recorrer valores del array
+con indices normales se usa un for
+for($indice=0;indice<limite; indice++){
+    echo miArreglo[inidice];
+}
+Con indices personalizados se usa foreach
+foreach($miArreglo as $indice=>$valor){
+    echo $indice;// muesta el nombre de los indices
+    echo miArreglo[indice];//muestra el valor por el indice
+    echo $valor; //muestra el valor por la variable asociada
+}
+Como podemos ver hay 2 formas de mostrar el valor en el foreach.
+
+
+
+Agregar valor al arreglo
+array_push(<arreglo>, <nuevo valor>);
